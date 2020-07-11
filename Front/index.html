@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Pediatria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <section id="main" class="container">
+    
+	<header>
+		<!--DECLARACION DEL MENU-->
+		<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+           <div class="container">
+
+           	<!--MENU SOLO EN DISPOSITIVOS MOVILES-->
+           	  <div class="navbar-header">
+           	  	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+           	  	 <span class="sr-only">Desplegar / Ocultar Menu</span>
+           	  	 <span class="icon-bar"></span>
+           	  	 <span class="icon-bar"></span>
+           	  	 <span class="icon-bar"></span>	
+           	  	 </button>
+           	<!---->
+
+           	  	 <a href = "#" class="navbar-brand">PROTOTIPO</a>
+           	  </div>
+           	  <!-- INICIA MENU -->
+           	  <div class="collapse navbar-collapse" id="navegacion-fm">
+           	  	   <ul class="nav navbar-nav">
+           	  	   	   <li class="active"><a href="#">INICIO</a></li>
+           	  	   	   <li ><a href="areaInfantil.php">AREA INFANTIL</a></li>
+           	  	   	   <li ><a href="quienesSomos.php">¿QUIENES SOMOS?</a></li>
+           	  	   	   <li ><a href="contacto.php">CONTACTO</a></li>
+           	  	   </ul>
+
+               <!--Elementos a la derecha-->
+           	  	   <ul class="nav navbar-nav navbar-right">
+           	  	   	<li><a href="#ventana1" data-toggle="modal"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> REGISTRATE</a></li>
+                    <li><a href="#ventana2" data-toggle="modal"><span class="glyphicon glyphicon-share" aria-hideen="true"></span> ACCEDER</a></li> 	   	
+           	  	   </ul>
+           	  </div>
+           </div>
+        </nav>
+	</header>
+
+  <div class="clearfix"></div>
+
+   <!--ventana modal 1-->
+                    <div class="modal fade" id="ventana1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!--Header de la ventana-->
+                          <div class="modal-header">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Registro</h4>
+                          </div>
+
+                          <!--Contenido de la ventana-->
+                          <div class="modal-body">
+                                <form method="post" action="">
+
+                                  <div class="form-group">
+                                  <label for="cedula">Nombre(s): </label>
+                                  <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="nombre">Apellidos:</label>
+                                  <input type="text" name="apellidos" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="apellidos">Email: </label>
+                                  <input type="text" name="email" class="form-control" id="email" placeholder="Ingresa tu email">
+                                  </div>
+
+                                   <div class="form-group">
+                                  <label for="email">Contraseña: </label>
+                                  <input type="email" name="pass" class="form-control" id="pass" placeholder="Ingresa tu contraseña">
+                                  </div>
+
+                                    <div class="form-group">
+                                  <label for="email">Repite tu Contraseña: </label>
+                                  <input type="email" name="rpass" class="form-control" id="rpass" placeholder="Ingresa de nuevo tu contraseña">
+                                  </div>
+                                  
+                                </form>
+
+                          </div>
+
+                          <!-- Footer de la ventna -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Registrate</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+   <!--ventana modal 2-->
+                    <div class="modal fade" id="ventana2">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!--Header de la ventana-->
+                          <div class="modal-header">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">INICIA SESION</h4>
+                          </div>
+
+                          <!--Contenido de la ventana-->
+                          <div class="modal-body">
+                             <form action="">
+                                <div class="form-group">
+                                  <label for="nombre">Correo</label>
+                                  <input type="text" class="form-control" id="nombre" placeholder="Correo">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="contrasena">Contraseña</label>
+                                  <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
+                                  </div>
+                             </form>
+                          </div>
+
+                          <!-- Footer de la ventna -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Acceder</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                 
+
+
+	<!--Aqui va el banner-->
+	<section class="jumbotron">
+		<br>
+		<br>
+		<div class="container">
+			<h1>BIENVENIDOS!</h1>
+			<p>Resultados y cuidados del infante</p>
+		</div>
+		
+	</section>
+
+
+  <div class="clearfix"></div>
+
+    <!--Aqui va el Slider-->
+     <div class="col-md-12 " id="slider">
+          	  <div id="carousel-1" class="carousel slide " data-ride="carousel">  
+          	  	<!--Indicadores-->
+          	  	<ol class="carousel-indicators">
+          	  		<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+          	  		<li data-target="#carousel-1" data-slide-to="1"></li>
+          	  		<li data-target="#carousel-1" data-slide-to="2"></li>
+          	  		<li data-target="#carousel-1" data-slide-to="3"></li>
+          	  		<li data-target="#carousel-1" data-slide-to="4"></li>
+          	  	</ol>
+                
+                <!-- Contenedor de los slide -->
+                <div class="carousel-inner" role="listbox">
+                	<div class="item active">
+                		<img src="img/p1.jpg" class="img-responsive" alt="">
+                		<div class="carousel-caption hidden-xs hidden-sm">
+                			<h3>Este es nuestro Slide #1</h3>
+                			<p>Lorem ipsum dolor sit amet.</p>
+                		</div>
+                	</div>
+
+                	<div class="item">
+                		<img src="img/p2.jpg" class="img-responsive" alt="">
+                		<div class="carousel-caption hidden-xs hidden-sm">
+                			<h3>Este es nuestro Slide #1</h3>
+                			<p>Lorem ipsum dolor sit amet.</p>
+                		</div>
+                	</div>
+
+                	<div class="item">
+                		<img src="img/p3.jpg" class="img-responsive" alt="">
+                		<div class="carousel-caption hidden-xs hidden-sm">
+                			<h3>Este es nuestro Slide #1</h3>
+                			<p>Lorem ipsum dolor sit amet.</p>
+                		</div>
+                	</div>
+
+                	<div class="item">
+                		<img src="img/p4.jpg" class="img-responsive" alt="">
+                		<div class="carousel-caption hidden-xs hidden-sm">
+                			<h3>Este es nuestro Slide #1</h3>
+                			<p>Lorem ipsum dolor sit amet.</p>
+                		</div>
+                	</div>
+
+                	<div class="item">
+                		<img src="img/p5.gif" class="img-responsive" alt="">
+                		<div class="carousel-caption hidden-xs hidden-sm">
+                			<h3>Este es nuestro Slide #1</h3>
+                			<p>Lorem ipsum dolor sit amet.</p>
+                		</div>
+                	</div>
+                </div>
+                <!--Controles-->
+                <a href="#carousel-1" class="lef carousel-control" role="button" data-slide="prev">
+                	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                	<span class="sr-only">Anterior</span>
+                </a>
+
+                <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                	<span class="sr-only">Siguiente</span>
+                </a>
+          	  </div>
+          </div>
+
+
+      <div class="clearfix"></div>
+    
+    <section id="section2">
+      
+
+
+    	
+    </section>
+
+     
+      <div class="clearfix"></div>
+
+    <footer >
+
+      <div class="clearfix"></div>
+
+    	 <div class="container-fluid">
+        <center>
+        <p text-center>CONTÁCTANOS EN NUESTRAS REDES SOCIALES</p>
+        <br>
+        <img src="img/facebook.png" alt="">&nbsp;&nbsp;
+        <img src="img/twitter.png" alt="">&nbsp;&nbsp;
+        <img src="img/you_tube.png" alt="">
+        <br>
+        <br>
+        <p text-center>www.itsm.edu.mx</p>
+        </center>
+       </div>
+    	
+    </footer>
+
+
+
+	<script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  </section>
+</body>
+</html>

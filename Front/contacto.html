@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Pediatria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<section id="main" class="container">
+
+	<header>
+		<!--DECLARACION DEL MENU-->
+		<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+           <div class="container">
+
+           	<!--MENU SOLO EN DISPOSITIVOS MOVILES-->
+           	  <div class="navbar-header">
+           	  	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+           	  	 <span class="sr-only">Desplegar / Ocultar Menu</span>
+           	  	 <span class="icon-bar"></span>
+           	  	 <span class="icon-bar"></span>
+           	  	 <span class="icon-bar"></span>	
+           	  	 </button>
+           	<!---->
+
+           	  	 <a href = "#" class="navbar-brand">PROTOTIPO</a>
+           	  </div>
+           	  <!-- INICIA MENU -->
+           	  <div class="collapse navbar-collapse" id="navegacion-fm">
+           	  	   <ul class="nav navbar-nav">
+           	  	   	   <li ><a href="index.php">INICIO</a></li>
+           	  	   	   <li ><a href="areaInfantil.php">AREA INFANTIL</a></li>
+           	  	   	   <li ><a href="quienesSomos.php">¿QUIENES SOMOS?</a></li>
+           	  	   	   <li class="active"><a href="#">CONTACTO</a></li>
+           	  	   </ul>
+
+               <!--Elementos a la derecha-->
+           	  	   <ul class="nav navbar-nav navbar-right">
+           	  	   	<li><a href="#ventana1" data-toggle="modal"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> REGISTRATE</a></li>
+                    <li><a href="#ventana2" data-toggle="modal"><span class="glyphicon glyphicon-share" aria-hideen="true"></span> ACCEDER</a></li> 	   	
+           	  	   </ul>
+           	  </div>
+           </div>
+        </nav>
+	</header>
+
+     <!--ventana modal 1-->
+                    <div class="modal fade" id="ventana1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!--Header de la ventana-->
+                          <div class="modal-header">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Registro</h4>
+                          </div>
+
+                          <!--Contenido de la ventana-->
+                          <div class="modal-body">
+                                <form action="">
+
+                                  <div class="form-group">
+                                  <label for="cedula">Nombre(s): </label>
+                                  <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="nombre">Apellidos:</label>
+                                  <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="apellidos">Email: </label>
+                                  <input type="text" class="form-control" id="email" placeholder="Ingresa tu email">
+                                  </div>
+
+                                   <div class="form-group">
+                                  <label for="email">Contraseña: </label>
+                                  <input type="email" class="form-control" id="pass" placeholder="Ingresa tu contraseña">
+                                  </div>
+
+                                    <div class="form-group">
+                                  <label for="email">Repite tu Contraseña: </label>
+                                  <input type="email" class="form-control" id="rpass" placeholder="Ingresa de nuevo tu contraseña">
+                                  </div>
+                                  
+                                </form>
+
+                          </div>
+
+                          <!-- Footer de la ventna -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Registrate</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+   <!--ventana modal 2-->
+                    <div class="modal fade" id="ventana2">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!--Header de la ventana-->
+                          <div class="modal-header">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">INICIA SESION</h4>
+                          </div>
+
+                          <!--Contenido de la ventana-->
+                          <div class="modal-body">
+                             <form action="">
+                                <div class="form-group">
+                                  <label for="nombre">Correo</label>
+                                  <input type="text" class="form-control" id="nombre" placeholder="Correo">
+                                  </div>
+
+                                  <div class="form-group">
+                                  <label for="contrasena">Contraseña</label>
+                                  <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
+                                  </div>
+                             </form>
+                          </div>
+
+                          <!-- Footer de la ventna -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Acceder</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+	<!--Aqui va el banner-->
+	<section  id="sectionContacto" class="jumbotron">
+		<br>
+		<br>
+		<div class="container">
+			<h1>BIENVENIDOS!</h1>
+			<p>Resultados y cuidados del infante</p>
+		</div>
+		
+	</section>
+
+   
+
+
+    <div class="clearfix"></div>
+    
+    <section id="sectionArticulos" class="container row" >
+      <div class="clearfix"></div>
+      
+         
+         <article id="articulo1" class="col-md-4 container-fluid">
+          <form action="">
+            <div class="form-group">
+              <h3><span class="glyphicon glyphicon-envelope" aria-hidden="true"> CONTÁCTANOS</h3>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+
+             <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+
+             <div class="form-group">
+                <label for="mensaje" class="control-label">Mensaje:</label>
+                <textarea rows="8" class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+
+            <br>
+            <button type="button" class="btn btn-danger btn-lg btn-block  ">Limpiar</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block  ">Enviar</button>
+       
+            </div>
+          </form>
+         </article>
+
+          <article id="articulo2" class="col-md-3 container-fluid" >
+            <h3><span class="glyphicon glyphicon-user" aria-hidden="true"> CONTÁCTO</h3>
+            <p>MIA. Roberto Ángel Melendez Armenta</p>
+            
+            <h3><span class="glyphicon glyphicon-envelope" aria-hidden="true"> E-MAIL</h3>
+            <p>ramelendeza@itsm.edu.mx</p>
+            
+            <h3><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> TELÉFONO</h3>
+            <p>01 (235) 323 1545 </p>
+            <p>EXT: 119</p>
+        
+            <h3><span class="glyphicon glyphicon-road" aria-hidden="true"> DIRECCIÓN</h3>
+            <p>ITSM </p>
+            <p>Gabriela Mistral, Las Rosas,</p> 
+            <p>Misantla, Veracruz.</p>
+            <p>México</p>  
+          </article>
+
+          <article id="articulo3" class="col-md-3 container-fluid">
+            <h3><span class="glyphicon glyphicon-road" aria-hidden="true"> UBICACIÓN</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.380000969846!2d-96.84598978591953!3d19.95051522908681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db117ae7e06483%3A0x8322b670e06e8cb3!2sInstituto+Tecnologico+Superior+de+Misantla!5e0!3m2!1ses!2smx!4v1446058403279" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>      
+          </article> 
+      
+      </section>
+
+    <div class="clearfix"></div>
+
+    <footer >
+
+      <div class="clearfix"></div>
+
+    	 <div class="container-fluid">
+        <center>
+        <p text-center>CONTÁCTANOS EN NUESTRAS REDES SOCIALES</p>
+        <br>
+        <img src="img/facebook.png" alt="">&nbsp;&nbsp;
+        <img src="img/twitter.png" alt="">&nbsp;&nbsp;
+        <img src="img/you_tube.png" alt="">
+        <br>
+        <br>
+        <p text-center>www.itsm.edu.mx</p>
+        </center>
+       </div>
+    	
+    </footer>
+
+
+
+	<script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</section>
+
+</body>
+</html>

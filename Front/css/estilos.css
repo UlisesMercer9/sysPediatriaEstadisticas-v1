@@ -1,0 +1,151 @@
+.jumbotron{
+	background: #E7BF74;
+	margin: 0px;
+}
+
+.border{
+	border-top: #E7BF74 8px solid ;
+}
+
+#heading0 {
+	background: #E7BF74;
+}
+
+#heading0:hover{
+	cursor: pointer;
+    opacity: 0.4;
+}
+
+#heading1 {
+	background: #212121;
+	color: #fff;
+}
+
+#heading1:hover{
+	cursor: pointer;
+    opacity: 0.4;
+}
+
+#heading2 {
+	background: #212121;
+	color: #fff;
+}
+
+#heading2:hover{
+	cursor: pointer;
+    opacity: 0.4;
+}
+
+#heading3 {
+	background: #212121;
+	color: #fff;
+}
+
+#heading3:hover{
+	cursor: pointer;
+    opacity: 0.4;
+}
+
+#heading4 {
+	background: #212121;
+	color: #fff;
+}
+
+#heading4:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+#heading5 {
+	background: #212121;
+	color: #fff;
+}
+
+#heading5:hover{
+	cursor: pointer;
+    opacity: 0.4;
+}
+
+
+
+
+#slider{ 
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#carousel-1{
+	margin: 0px;
+    padding: 0px;
+
+}
+
+#section2{
+	background: #fff;
+}
+
+#articulo1{
+	margin-right: 30px;
+}
+
+#articulo2{
+	margin-right: 5px;
+}
+
+#articulo3{
+	
+}
+
+#articulo1 h3{
+	color: #E7BF74;
+}
+
+#articulo2 h3{
+     color: #E7BF74;
+}
+
+#articulo3 h3{
+     color: #E7BF74;
+}
+
+
+#articulo4{
+	margin-right: 80px;
+
+}
+
+#articulo5{
+   padding: 0px;
+}
+
+
+section#sectionArticulos{
+     padding: 80px;
+}
+
+section#sectionAreaInfantil{
+     padding: 50px;
+}
+
+section#sectionQuienesSomos{
+	padding: 50px;
+}
+
+nav{
+	color: #fff;
+}
+
+footer{
+	background: #212121;
+	color: #fff;
+	padding-top: 50px;
+
+
+}
+
+footer img:hover{
+	cursor: pointer;
+    opacity: 0.4;
+
+}
